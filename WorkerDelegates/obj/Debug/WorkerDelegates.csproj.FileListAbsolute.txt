@@ -1,0 +1,13 @@
+C:\Users\edtrenchard\AppData\Local\Temporary Projects\WorkerDelegates\bin\Debug\WorkerDelegates.exe.config
+\\asdanbs\users$\edtrenchard\My Documents\Visual Studio 2013\Projects\WorkerDelegates\WorkerDelegates\bin\Debug\WorkerDelegates.exe.config
+\\asdanbs\users$\edtrenchard\My Documents\Visual Studio 2013\Projects\WorkerDelegates\WorkerDelegates\bin\Debug\WorkerDelegates.exe
+\\asdanbs\users$\edtrenchard\My Documents\Visual Studio 2013\Projects\WorkerDelegates\WorkerDelegates\bin\Debug\WorkerDelegates.pdb
+\\asdanbs\users$\edtrenchard\My Documents\Visual Studio 2013\Projects\WorkerDelegates\WorkerDelegates\obj\Debug\WorkerDelegates.csprojResolveAssemblyReference.cache
+\\asdanbs\users$\edtrenchard\My Documents\Visual Studio 2013\Projects\WorkerDelegates\WorkerDelegates\obj\Debug\WorkerDelegates.exe
+\\asdanbs\users$\edtrenchard\My Documents\Visual Studio 2013\Projects\WorkerDelegates\WorkerDelegates\obj\Debug\WorkerDelegates.pdb
+D:\wip\WorkerDelegates\WorkerDelegates\bin\Debug\WorkerDelegates.exe.config
+D:\wip\WorkerDelegates\WorkerDelegates\obj\Debug\WorkerDelegates.exe
+D:\wip\WorkerDelegates\WorkerDelegates\obj\Debug\WorkerDelegates.pdb
+D:\wip\WorkerDelegates\WorkerDelegates\bin\Debug\WorkerDelegates.exe
+D:\wip\WorkerDelegates\WorkerDelegates\bin\Debug\WorkerDelegates.pdb
+D:\wip\WorkerDelegates\WorkerDelegates\obj\Debug\WorkerDelegates.csprojResolveAssemblyReference.cache
