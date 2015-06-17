@@ -14,7 +14,7 @@ namespace WorkerDelegates
             {
                 Console.WriteLine("Hours lunch: {0} - yum, yum", hours);
             };
-            //test
+            worker.WorkCommute += (s, e) => Console.WriteLine("Driving in my car");
             worker.DoWork(8, WorkType.Cycling);
             Console.ReadKey();
         }

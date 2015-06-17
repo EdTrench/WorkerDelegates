@@ -9,9 +9,11 @@ namespace WorkerDelegates
         public event EventHandler<WorkPerformedEventArgs> WorkPerformed;
         public event EventHandler WorkCompleted;
         public event WorkLunchHandler WorkLunch;
+        public event EventHandler WorkCommute;
 
         public void DoWork(int hours, WorkType workType)
         {
+            OnWorkCommute();
             for (int i = 0; i < hours; i++)
             {
                 System.Threading.Thread.Sleep(1000);
@@ -25,6 +27,16 @@ namespace WorkerDelegates
                 }
             }
             OnWorkCompleted();
+            OnWorkCommute();
+        }
+
+        protected virtual void OnWorkCommute()
+        {
+            var del = WorkCommute;
+            if (del != null)
+            {
+                del(this, EventArgs.Empty);
+            }
         }
 
         protected virtual void OnWorkLunch(int hours)
