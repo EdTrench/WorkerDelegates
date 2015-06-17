@@ -14,6 +14,7 @@ namespace WorkerDelegates
             {
                 Console.WriteLine("Hours lunch: {0} - yum, yum", hours);
             };
+            //test
             worker.DoWork(8, WorkType.Cycling);
             Console.ReadKey();
         }
