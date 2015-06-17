@@ -15,5 +15,11 @@ namespace WorkerDelegates
             action(x, y);
             Console.WriteLine("Action processed!");
         }
+
+        public void ProcessFunc(int x, int y, Func<int, int, int> func)
+        {
+            var result = func(x, y);
+            Console.WriteLine(result);
+        }
     }
 }

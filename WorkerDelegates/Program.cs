@@ -18,6 +18,10 @@ namespace WorkerDelegates
             Action<int, int> myMultiplyAction = (x, y) => Console.WriteLine(x * y);
             data.ProcessAction(2, 3, myAddAction);
 
+            Func<int, int, int> myAddFunc = (x, y) => x + y;
+            Func<int, int, int> myMultiplyFunc = (x, y) => x * y;
+            data.ProcessFunc(2, 3, myMultiplyFunc);
+
             var worker = new Worker();
             worker.WorkPerformed += new EventHandler<WorkPerformedEventArgs>(WorkPerformed);
             worker.WorkCompleted += WorkCompleted;
