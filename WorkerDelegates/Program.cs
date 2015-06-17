@@ -12,7 +12,7 @@ namespace WorkerDelegates
             BizRulesDelegate multiplyDelegate = (x, y) => x * y;
 
             var data = new ProcessData();
-            data.ProcessDate(2, 3, multiplyDelegate);
+            data.ProcessDelegte(2, 3, multiplyDelegate);
             
             Action<int, int> myAddAction = (x, y) => Console.WriteLine(x + y);
             Action<int, int> myMultiplyAction = (x, y) => Console.WriteLine(x * y);
